@@ -1,10 +1,10 @@
-package com.study.prodaction;
+package com.andriivoloskovets.productservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductServiceApplicationTests {
+class ProductRestServiceApplicationTests {
 
     @Test
     void contextLoads() {
