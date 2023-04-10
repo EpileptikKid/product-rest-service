@@ -8,14 +8,14 @@ CREATE TABLE subgroups (
                            id SERIAL PRIMARY KEY,
                            name VARCHAR(255) NOT NULL,
                            subgroup_description TEXT,
-                           group_id INTEGER REFERENCES groups(id)
+                           group_id INTEGER REFERENCES groups(id) ON DELETE CASCADE
 );
 
 CREATE TABLE products (
                           id SERIAL PRIMARY KEY,
                           name VARCHAR(255) NOT NULL,
                           price_per_kg NUMERIC(10, 2) NOT NULL,
-                          subgroup_id INTEGER REFERENCES subgroups(id),
+                          subgroup_id INTEGER REFERENCES subgroups(id) ON DELETE CASCADE,
                           supplier_country VARCHAR(255) NOT NULL
 );
 
