@@ -6,13 +6,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.0.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>com.andrii</groupId>
     <artifactId>product-rest-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.2</version>
     <name>product-rest-service</name>
-    <description>product-rest-service</description>
+    <description>Service for crude operations with products, information about which is stored in the database</description>
     <properties>
         <java.version>17</java.version>
     </properties>
