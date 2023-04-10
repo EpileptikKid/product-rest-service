@@ -1,4 +1,4 @@
-package com.andriivoloskovets.productservice;
+package com.andrii.productrestservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.andriivoloskovets.productservice;
+package com.andrii.productrestservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
