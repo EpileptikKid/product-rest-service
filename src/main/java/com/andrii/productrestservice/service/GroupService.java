@@ -27,17 +27,9 @@ public class GroupService {
         }
 
         switch (sortBy) {
-            case "id":
-                groups.sort(Comparator.comparing(Group::getId));
-                break;
-            case "name":
-                groups.sort(Comparator.comparing(Group::getName));
-                break;
-            case "description":
-                groups.sort(Comparator.comparing(Group::getGroupDescription));
-                break;
-            default:
-                break;
+            case "id" -> groups.sort(Comparator.comparing(Group::getId));
+            case "name" -> groups.sort(Comparator.comparing(Group::getName));
+            case "description" -> groups.sort(Comparator.comparing(Group::getGroupDescription));
         }
 
         return groups;
