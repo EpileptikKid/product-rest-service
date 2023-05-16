@@ -25,10 +25,8 @@ public class ProductDTO {
 
     public void setPricePerKg(BigDecimal pricePerKg) { this.pricePerKg = pricePerKg; }
 
-    public Subgroup getSubgroup() {
-        Subgroup subgroupObj = new Subgroup();
-        subgroupObj.setId(subgroup);
-        return subgroupObj;
+    public long getSubgroup() {
+        return subgroup;
     }
 
     public void setSubgroup(Subgroup subgroup) {

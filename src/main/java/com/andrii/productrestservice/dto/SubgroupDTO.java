@@ -22,10 +22,8 @@ public class SubgroupDTO {
 
     public void setSubgroupDescription(String subgroupDescription) { this.subgroupDescription = subgroupDescription; }
 
-    public Group getGroup() {
-        Group returnedGroup = new Group();
-        returnedGroup.setId(id);
-        return returnedGroup;
+    public long getGroup() {
+        return group;
     }
 
     public void setGroup(Group group) {
